@@ -1,17 +1,13 @@
-## install 
-
-python3 -m venv vulnscan
-
-source venv/bin/activate
+## usage
 
 chmod +x vulnscan.sh
-
-## usage
 
 ./vulnscan.sh   interactive menu
 
 [1] Static scan — normal or severity-filtered analysis
+
 [2] Scan + CVE/CWE lookup — enriches findings with NVD data
+
 [3] Full Scan + AI — contextual analysis, reduces false positives
 Requires API key in ai_analysis.py → API_KEYS { "groq": "gsk_..." }
 
