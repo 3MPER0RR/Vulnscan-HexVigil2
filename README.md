@@ -18,13 +18,13 @@ python main.py <path>
 
 python main.py file.c -v 
 
-python main.py cartella/ --severity HIGH 
+python main.py folder/ --severity HIGH 
 
-python main.py cartella/ --lang c 
+python main.py folder/ --lang c 
 
-python main.py cartella/ --lang python 
+python main.py folder/ --lang python 
 
-python main.py cartella/ --no-banner 
+python main.py folder/ --no-banner 
 
 ## supported extensions
 
