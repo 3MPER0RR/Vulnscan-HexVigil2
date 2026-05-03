@@ -2,7 +2,7 @@
 
 chmod +x vulnscan.sh
 
-./vulnscan.sh   interactive menu
+./vulnscan.sh easy user interactive menu
 
 [1] Static scan — normal or severity-filtered analysis
 
