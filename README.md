@@ -9,6 +9,7 @@ chmod +x vulnscan.sh
 [2] Scan + CVE/CWE lookup — enriches findings with NVD data
 
 [3] Full Scan + AI — contextual analysis, reduces false positives
+
 Requires API key in ai_analysis.py → API_KEYS { "groq": "gsk_..." }
 
 ## direct scan
